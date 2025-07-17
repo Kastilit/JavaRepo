@@ -15,7 +15,6 @@ public class KNB {
             return;
         }
 
-        // Определяем победителя
         if (vasyaChoice == petyaChoice) {
             System.out.println("Ничья!");
         } else if ((vasyaChoice == 0 && petyaChoice == 1) ||
